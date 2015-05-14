@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>346</string>
+	<key>AMApplicationVersion</key>
+	<string>2.3</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>recurse</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Folder Contents.action</string>
+				<key>ActionName</key>
+				<string>Get Folder Contents</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>recurse</key>
+					<false/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.GetFolderContents</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>GetFolderContents</string>
+				<key>InputUUID</key>
+				<string>8ED52587-65E1-4756-9367-777FFF6B4F9F</string>
+				<key>Keywords</key>
+				<array>
+					<string>File</string>
+					<string>Folder</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>63AB0F08-0CC1-4328-92F1-3A47741D19EE</string>
+				<key>UUID</key>
+				<string>B5BCDE21-97FD-4C1C-B2E8-14888751FAD9</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>recurse</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>320.000000:406.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Selected Finder Items 2.action</string>
+				<key>ActionName</key>
+				<string>Get Selected Finder Items</string>
+				<key>ActionParameters</key>
+				<dict/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Get_Selected_Finder_Items_2</string>
+				<key>CFBundleVersion</key>
+				<string>2.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMGetSelectedFinderItemsAction</string>
+				<key>InputUUID</key>
+				<string>961E541A-521A-4A84-BCAD-8D2A51E068EC</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>CABA54B4-2F5F-4406-8A11-6A59271AF005</string>
+				<key>UUID</key>
+				<string>A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+			</dict>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Microsoft PowerPoint</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>saveFormat</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array>
+					<dict>
+						<key>Display Name</key>
+						<string>Microsoft PowerPoint</string>
+						<key>Resource</key>
+						<string>com.microsoft.powerpoint</string>
+						<key>Type</key>
+						<string>application</string>
+						<key>Version</key>
+						<string>14.0</string>
+					</dict>
+				</array>
+				<key>ActionBundlePath</key>
+				<string>/Library/Automator/Convert Format of PowerPoint Presentations.action</string>
+				<key>ActionName</key>
+				<string>Convert Format of PowerPoint Presentations</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>saveFormat</key>
+					<integer>6</integer>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.microsoft.Automator.Convert_Format_of_PowerPoint_Presentations</string>
+				<key>CFBundleVersion</key>
+				<string>1.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPresentations</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAppleScriptAction</string>
+				<key>InputUUID</key>
+				<string>3D7AC19D-5250-49E9-9BBE-D7987DFD64EF</string>
+				<key>Keywords</key>
+				<array>
+					<string>save</string>
+					<string>save as</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>779E96CF-E1C1-46F9-A2C5-9193875B5E29</string>
+				<key>UUID</key>
+				<string>159BB2DA-CB52-44D0-9FFD-D0648D085F27</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Microsoft PowerPoint</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>1</integer>
+						<key>name</key>
+						<string>saveFormat</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>320.000000:240.000000</string>
+				<key>nibPath</key>
+				<string>/Library/Automator/Convert Format of PowerPoint Presentations.action/Contents/Resources/en.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Microsoft PowerPoint</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array>
+					<dict>
+						<key>Display Name</key>
+						<string>Microsoft PowerPoint</string>
+						<key>Resource</key>
+						<string>com.microsoft.powerpoint</string>
+						<key>Type</key>
+						<string>application</string>
+						<key>Version</key>
+						<string>14.0</string>
+					</dict>
+				</array>
+				<key>ActionBundlePath</key>
+				<string>/Library/Automator/Quit PowerPoint.action</string>
+				<key>ActionName</key>
+				<string>Quit PowerPoint</string>
+				<key>ActionParameters</key>
+				<dict/>
+				<key>BundleIdentifier</key>
+				<string>com.microsoft.Automator.Quit_PowerPoint</string>
+				<key>CFBundleVersion</key>
+				<string>1.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPresentations</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAppleScriptAction</string>
+				<key>InputUUID</key>
+				<string>03B83215-3AD4-491D-A807-F7F8DD105EC4</string>
+				<key>Keywords</key>
+				<array>
+					<string>exit</string>
+					<string>close</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>63E946EF-3D5E-4ED9-BA75-ADD958F5DFBE</string>
+				<key>UUID</key>
+				<string>6A7BA97A-AA38-4D6B-A6FF-14C49478A9AA</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Microsoft PowerPoint</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>320.000000:130.000000</string>
+				<key>nibPath</key>
+				<string>/Library/Automator/Quit PowerPoint.action/Contents/Resources/en.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>32449106-8404-4852-A087-325CB5AEAC8C</key>
+		<dict>
+			<key>from</key>
+			<string>159BB2DA-CB52-44D0-9FFD-D0648D085F27 - 159BB2DA-CB52-44D0-9FFD-D0648D085F27</string>
+			<key>to</key>
+			<string>6A7BA97A-AA38-4D6B-A6FF-14C49478A9AA - 6A7BA97A-AA38-4D6B-A6FF-14C49478A9AA</string>
+		</dict>
+		<key>3B18F483-1D67-4002-94C1-A52D860D9EF5</key>
+		<dict>
+			<key>from</key>
+			<string>B5BCDE21-97FD-4C1C-B2E8-14888751FAD9 - B5BCDE21-97FD-4C1C-B2E8-14888751FAD9</string>
+			<key>to</key>
+			<string>A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9 - A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9</string>
+		</dict>
+		<key>9794F6C8-EA4B-4B7A-BB37-1FA55A3298B1</key>
+		<dict>
+			<key>from</key>
+			<string>A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9 - A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9</string>
+			<key>to</key>
+			<string>159BB2DA-CB52-44D0-9FFD-D0648D085F27 - 159BB2DA-CB52-44D0-9FFD-D0648D085F27</string>
+		</dict>
+	</dict>
+	<key>state</key>
+	<dict>
+		<key>AMLogTabViewSelectedIndex</key>
+		<integer>1</integer>
+		<key>libraryState</key>
+		<dict>
+			<key>actionsMajorSplitViewState</key>
+			<dict>
+				<key>expandedPosition</key>
+				<real>0.0</real>
+				<key>subviewState</key>
+				<array>
+					<string>0.000000, 0.000000, 361.000000, 378.000000, NO</string>
+					<string>0.000000, 379.000000, 361.000000, 304.000000, NO</string>
+				</array>
+			</dict>
+			<key>actionsMinorSplitViewState</key>
+			<dict>
+				<key>expandedPosition</key>
+				<real>261</real>
+				<key>subviewState</key>
+				<array>
+					<string>0.000000, 0.000000, 143.000000, 378.000000, NO</string>
+					<string>144.000000, 0.000000, 217.000000, 378.000000, NO</string>
+				</array>
+			</dict>
+			<key>variablesMajorSplitViewState</key>
+			<dict>
+				<key>expandedPosition</key>
+				<real>0.0</real>
+				<key>subviewState</key>
+				<array>
+					<string>0.000000, 0.000000, 381.000000, 620.000000, NO</string>
+					<string>0.000000, 621.000000, 381.000000, 199.000000, NO</string>
+				</array>
+			</dict>
+			<key>variablesMinorSplitViewState</key>
+			<dict>
+				<key>expandedPosition</key>
+				<real>0.0</real>
+				<key>subviewState</key>
+				<array>
+					<string>0.000000, 0.000000, 163.000000, 620.000000, NO</string>
+					<string>164.000000, 0.000000, 217.000000, 620.000000, NO</string>
+				</array>
+			</dict>
+		</dict>
+		<key>majorSplitViewState</key>
+		<dict>
+			<key>expandedPosition</key>
+			<real>393</real>
+			<key>subviewState</key>
+			<array>
+				<string>0.000000, 0.000000, 361.000000, 728.000000, NO</string>
+				<string>362.000000, 0.000000, 659.000000, 728.000000, NO</string>
+			</array>
+		</dict>
+		<key>minorSplitViewState</key>
+		<dict>
+			<key>expandedPosition</key>
+			<real>0.0</real>
+			<key>subviewState</key>
+			<array>
+				<string>0.000000, 0.000000, 659.000000, 537.000000, NO</string>
+				<string>0.000000, 547.000000, 659.000000, 162.000000, NO</string>
+			</array>
+		</dict>
+		<key>windowFrame</key>
+		<string>{{900, 253}, {1020, 805}}</string>
+		<key>workflowViewScrollPosition</key>
+		<string>{{0, 0}, {659, 537}}</string>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.workflow</string>
+	</dict>
+</dict>
+</plist>
