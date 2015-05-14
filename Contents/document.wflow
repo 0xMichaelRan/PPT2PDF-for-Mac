@@ -103,7 +103,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>320.000000:406.000000</string>
+				<string>308.000000:415.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -283,7 +283,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>320.000000:240.000000</string>
+				<string>308.000000:249.000000</string>
 				<key>nibPath</key>
 				<string>/Library/Automator/Convert Format of PowerPoint Presentations.action/Contents/Resources/en.lproj/main.nib</string>
 			</dict>
@@ -374,7 +374,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>320.000000:130.000000</string>
+				<string>308.000000:139.000000</string>
 				<key>nibPath</key>
 				<string>/Library/Automator/Quit PowerPoint.action/Contents/Resources/en.lproj/main.nib</string>
 			</dict>
@@ -384,26 +384,26 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>32449106-8404-4852-A087-325CB5AEAC8C</key>
+		<key>113F766F-9FC0-400E-8ACE-3FAE3040ABC8</key>
 		<dict>
 			<key>from</key>
-			<string>159BB2DA-CB52-44D0-9FFD-D0648D085F27 - 159BB2DA-CB52-44D0-9FFD-D0648D085F27</string>
+			<string>A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9 - A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9</string>
 			<key>to</key>
-			<string>6A7BA97A-AA38-4D6B-A6FF-14C49478A9AA - 6A7BA97A-AA38-4D6B-A6FF-14C49478A9AA</string>
+			<string>159BB2DA-CB52-44D0-9FFD-D0648D085F27 - 159BB2DA-CB52-44D0-9FFD-D0648D085F27</string>
 		</dict>
-		<key>3B18F483-1D67-4002-94C1-A52D860D9EF5</key>
+		<key>76D0314A-4E83-406C-A43D-F2D3E7DBB873</key>
 		<dict>
 			<key>from</key>
 			<string>B5BCDE21-97FD-4C1C-B2E8-14888751FAD9 - B5BCDE21-97FD-4C1C-B2E8-14888751FAD9</string>
 			<key>to</key>
 			<string>A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9 - A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9</string>
 		</dict>
-		<key>9794F6C8-EA4B-4B7A-BB37-1FA55A3298B1</key>
+		<key>97F4431B-13E6-492A-8A3C-116127D14D62</key>
 		<dict>
 			<key>from</key>
-			<string>A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9 - A0AA1405-B1BC-4D49-BAE3-1D3EAB1687D9</string>
-			<key>to</key>
 			<string>159BB2DA-CB52-44D0-9FFD-D0648D085F27 - 159BB2DA-CB52-44D0-9FFD-D0648D085F27</string>
+			<key>to</key>
+			<string>6A7BA97A-AA38-4D6B-A6FF-14C49478A9AA - 6A7BA97A-AA38-4D6B-A6FF-14C49478A9AA</string>
 		</dict>
 	</dict>
 	<key>state</key>
